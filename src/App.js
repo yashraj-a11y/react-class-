@@ -1,5 +1,10 @@
 
 import './App.css';
+import Login from './components/Login'
+import React from "react"
+
+
+
 
 
 function App() {
@@ -8,10 +13,13 @@ function App() {
 
   
   return (
-    <div>
-      <p>hii</p>
+    <div className="app">
+      <Login></Login>
+      
+      
     </div>
   );
 
 }
 export default App;
+
